@@ -2,6 +2,7 @@
 Seudocodigo
 imprimir instrucciones al usuario
 usuario ingresa cifra
+    crear la condicion de evitar error
     separar cifra en unidad-decena-centena, etc {'1':5, '10': 2, '100':4, '1.000':4, '10.000':6, '100.000':6}
     aplicarle el formato
     Almacenamiento en lista['657.340', '1.051', '89']
@@ -16,23 +17,23 @@ si usuario ingresa salir
 
 '''
 Esqueleto de funciones
-def input():
+def input(): Rocio
     #aqui va el break al leer salir
     return()
 
-def separar_cifra():
+def separar_cifra(): Manuel
     return()
 
-def aplicar_formato():
+def aplicar_formato(): Boris
     return()
 
-def almacenar_en_lista():
+def almacenar_en_lista(): Cinthia
     return()
 
-def imprimir_abaco():
+def imprimir_abaco(): Julio
     return()
 
-def 
+def que_salga_bien() todos
 '''
 
 
