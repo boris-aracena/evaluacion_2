@@ -1,5 +1,3 @@
-# Boris Aracena
-
 #Parte 1: Definir formatos de los números ingresados, se leen como string, para trabajarlos en la posibilidad de errores y la palabra salir
 def pregunta():
     numero = input('Ingrese un número de hasta 6 dígitos: ')
@@ -43,7 +41,7 @@ def abaco_estructura(numero):
     string2 = " | | "
     
     nn = int(numero)
-# Contador hasta 10 porque la máxima altura que puede tomar es 9, por lectura maxima de número 999.999    
+# Contador hasta 10 porque la máxima altura que puede tomar es 9, por lectura máxima de número 999.999    
     count1 = nn
     if nn == 0:
         count2 = 10
@@ -54,7 +52,7 @@ def abaco_estructura(numero):
     lista2 = []
     
     for i in range(count1):
-# Método append agrega un elemento al final de la lsita
+# Método append agrega un elemento al final de la lista
         lista1.append(string1)
     
     for i in range(count2):
