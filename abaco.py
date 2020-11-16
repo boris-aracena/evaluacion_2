@@ -102,3 +102,11 @@ print ("Decenas: %i" % decenas)
 print ("Unidades: %i" % unidades)
 
 '''
+
+#Input 
+def ingresar_digitos():
+    numero = input("Ingrese solo números de hasta 6 dígitos: ")
+    print()
+    
+digitos= ingresar_digitos()
+
